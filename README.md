@@ -16,7 +16,7 @@ console.log(test("ing"))
 
 ## Problems
 
-1. Write a function called `discountPercentage()` that returns the total discount ($), given the original amount and discount percentage (as argumens). Return a warning if the discount amount is greater than 100 or less that 0 percent.
+1. Write a function called `discountPercentage` that returns the total discount ($), given the original amount and discount percentage (as arguments). Return a warning if the discount amount is greater than 100 or less that 0 percent.
 1. Write a function called `stringCapitalize` that takes a string as an argument and returns the same string with the first letter of each word capitalized. Assume that each individual work is separated by only one space.
 1. Write a function called `evenNumbers` that takes a random integer, from 0 to 100, and outputs all the even integers from 0 to that random number.
 
