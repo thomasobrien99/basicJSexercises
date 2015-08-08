@@ -1,8 +1,7 @@
 # JavaScript Functions - part 1
 
-1. Create a blank, valid HTML5 document.
-1. Create a JavaScript file
-1. Solve each of the given problems, creating a function that returns the value. Then output the result of the function to the JavaScript console.
+1. Create a JavaScript file (e.g. function1.js)
+1. Solve each of the given problems, creating a function that returns the value. Then output an example of your function to the JavaScript console.
 
 ### Example
 
@@ -18,8 +17,11 @@ console.log(test("ing"))
 
 1. Define a function called `sum` that takes two numbers as arguments and returns their sum.
 1. Define a function called `isEqual` that takes two arguments and returns a boolean. Return true if the two arguments are equal and return false if they are not.
-1. Define a function called `discountPercentage` that returns the total discount ($), given the original amount and discount percentage (as arguments). Return a warning if the discount amount is greater than 100 or less that 0 percent.
-1. Define a function called `stringCapitalize` that takes a string as an argument and returns the same string with the first letter of each word capitalized. Assume that each individual word is separated by only one space.
-1. Define a function called `evenNumbers` that takes an arbitrary integer as an argument, from 0 to 100, and outputs all the even integers from 0 to that arbitrary number.
+1. Define a function called `isEven` that takes an arbitrary whole number as an argument and return a boolean. Return true if the number is even and false if it is not.
 1. Define a function called `isDivisible` that takes two arguments and returns a boolean. Return true if the first argument is divisible by the second; otherwise, return false.
-1. **Bonus**: Write a function called `oddNumbers` that takes an arbitrary integer as an argument, from 0 to 100. If the number is greater than 40 then output all the odd integers from 40 to the arbitrary number. If the number is less than 40, output all the odd integers from 0 to 40.
+1. Define a function called `discountPercentage` that returns the total discount ($), given the original amount and discount percentage (as arguments). Return a warning if the discount amount is greater than 100 or less that 0 percent.
+1. Define a function called `isVowel` that takes a letter and returns true if the letter is a vowel, and false if the letter is a consonant. (Treat 'y' as a special case!)
+1. Define a function called `biggestOfThree` which takes three numbers as arguments, and returns the largest one.
+1. **Bonus**: Write a function that will estimate your federal income taxes. The function should take just one input: your salary (or future salary, once you graduate!). The link below has information on how federal income taxes are calculated:
+
+[Federal Income Tax Brackets](http://www.efile.com/tax-service/tax-calculator/tax-brackets/)
