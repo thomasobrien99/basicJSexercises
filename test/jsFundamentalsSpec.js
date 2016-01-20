@@ -12,7 +12,7 @@ describe("#sum", function(){
 
 describe("#isEqual", function(){
   it("compares numbers", function(){
-    expect(methods.sum(1,2)).to.equal(false);
+    expect(methods.isEqual(1,2)).to.equal(false);
   });
   it("compares strings", function(){
     expect(methods.isEqual(-1,-1)).to.equal(true);
