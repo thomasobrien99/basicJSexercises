@@ -8,6 +8,9 @@ module.exports = {
   isEven: function(){
 
   },
+  isDivisible: function(){
+
+  },
   discountPercentage: function(){
 
   },
