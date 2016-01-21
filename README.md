@@ -1,4 +1,4 @@
-# Basic Javascript
+# Javascript Fundamentals Part I
 
 1. Fork and clone this repository
 2. In the root directory of this folder, run `npm install`
