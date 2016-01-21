@@ -1,19 +1,10 @@
 # Basic Javascript
 
-For each of the problems below:
-
-1. Create a JavaScript file (e.g. function1.js)
-1. Solve each of the given problems, creating a function that returns the value. Then output an example of your function to the JavaScript console.
-
-### Example
-
-```javascript
-function test(str) {
-  return "test" + str
-}
-
-console.log(test("ing"))
-```
+1. Fork and clone this repository
+2. In the root directory of this folder, run `npm install`
+1. Add the necessary code in `script.js` for each function
+2. Run `npm test` to run the tests 
+2. Once the tests pass you are all done!
 
 ## Problems
 
