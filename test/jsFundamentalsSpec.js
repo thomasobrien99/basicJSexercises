@@ -64,4 +64,21 @@ describe("#isVowel", function(){
   });
 });
 
+describe("#celsiusToFahrenheit", function() {
+  it('returns 86 when given 30', function() {
+    expect(methods.celsiusToFahrenheit(30)).to.equal(86);
+  });
+  it('returns 23 when given -5', function() {
+    expect(methods.celsiusToFahrenheit(-5)).to.equal(23);
+  });
+});
+
+describe("#biggestOfThree", function() {
+  it('returns 5 when given 1, 2, 5', function() {
+    expect(methods.biggestOfThree(1, 2, 5)).to.equal(5);
+  });
+  it('returns 72 when given -3, 72, 42', function() {
+    expect(methods.biggestOfThree(-3, 72, 42)).to.equal(72);
+  });
+});
 // BONUS - write a test for the bonus question!

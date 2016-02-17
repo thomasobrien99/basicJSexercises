@@ -4,7 +4,7 @@
   "description": "For each of the problems below:",
   "main": "index.js",
   "scripts": {
-    "test": "mocha test/jsFundamentalsSpec.js"
+    "test": "node_modules/mocha/bin/mocha test/jsFundamentalsSpec.js"
   },
   "repository": {
     "type": "git",
@@ -18,6 +18,9 @@
   "homepage": "https://github.com/gSchool/basic-js#readme",
   "devDependencies": {
     "chai": "^3.5.0",
+    "chai": "^3.4.1"
+  },
+  "dependencies": {
     "mocha": "^2.4.5"
   }
 }

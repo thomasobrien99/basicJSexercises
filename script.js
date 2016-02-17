@@ -17,10 +17,10 @@ module.exports = {
   isVowel: function(){
 
   },
-  celsiusToFahrenheit: function(){
+  celsiusToFahrenheit: function(cel) {
 
   },
-  biggestOfThree: function(){
+  biggestOfThree: function(one, two, three){
 
   },
   // Bonus
