@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/gSchool/basic-js#readme",
   "devDependencies": {
-    "chai": "^3.4.1"
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5"
   }
 }
