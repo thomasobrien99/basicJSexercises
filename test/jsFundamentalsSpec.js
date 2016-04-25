@@ -47,6 +47,9 @@ describe("#discountPercentage", function(){
   it("returns the discount for an amount", function(){
     expect(methods.discountPercentage(100,5)).to.equal(5);
   });
+  it("returns the discount for an amount", function(){
+    expect(methods.discountPercentage(200,5)).to.equal(10);
+  });
   it("returns a warning if the percentage is below 0", function(){
     expect(methods.discountPercentage(3,-5)).to.equal("please enter a number between 0 and 100");
   });
