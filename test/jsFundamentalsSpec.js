@@ -1,12 +1,12 @@
 var expect = require("chai").expect; //jshint ignore:line
 var methods = require("../script");
 
-describe("#sum", function(){
-  it("adds two numbers", function(){
-    expect(methods.sum(1,2)).to.equal(3);
+describe("#difference", function(){
+  it("subtracts two numbers", function(){
+    expect(methods.difference(3,2)).to.equal(1);
   });
   it("works with negative numbers", function(){
-    expect(methods.sum(-1,2)).to.equal(1);
+    expect(methods.difference(1,2)).to.equal(-1);
   });
 });
 

@@ -8,7 +8,7 @@
 
 ## Problems
 
-1. Define a function called `sum` that takes two numbers as arguments and returns their sum.
+1. Define a function called `difference` that takes two numbers as arguments and returns their difference.
 1. Define a function called `isEqual` that takes two arguments and returns a boolean. Return true if the two arguments are equal and return false if they are not.
 1. Define a function called `isEven` that takes an arbitrary whole number as an argument and return a boolean. Return true if the number is even and false if it is not.
 1. Define a function called `isDivisible` that takes two arguments and returns a boolean. Return true if the first argument is divisible by the second; otherwise, return false.
